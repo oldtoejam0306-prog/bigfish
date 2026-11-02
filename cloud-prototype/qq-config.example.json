@@ -1,0 +1,8 @@
+{
+  "bot_id": null,
+  "owner_id": null,
+  "paid_budget_micro": 0,
+  "outbound_enabled": false,
+  "group_enabled": false,
+  "mode": "offline_fixture_only"
+}

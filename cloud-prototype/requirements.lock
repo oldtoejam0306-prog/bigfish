@@ -1,0 +1,2 @@
+# Python >=3.10. No pip dependencies. Vendored webvtt-py 0.5.1
+# commit 8c7552053b89b198fa4249a178d05f70e0649456, MIT; see vendor/WEBVTT-LICENSE.
