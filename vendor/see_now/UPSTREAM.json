@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/SAOS-3624/dsh-see-now",
+  "commit": "916354d36e58fdd843fff96284ff7c985bd00020",
+  "version": "0.0.6",
+  "license": "Apache-2.0",
+  "modification": "cuts.js renamed cuts.mjs only; source bytes unchanged",
+  "files": [
+    {
+      "file": "cuts.mjs",
+      "upstream_path": "src/cuts.js",
+      "source_url": "https://raw.githubusercontent.com/SAOS-3624/dsh-see-now/916354d36e58fdd843fff96284ff7c985bd00020/src/cuts.js",
+      "bytes": 3397,
+      "sha256": "311e4770c62f4ccb5daacf7a38499907eb2f33631e7c55934a2056fc6a617142"
+    },
+    {
+      "file": "LICENSE",
+      "upstream_path": "LICENSE",
+      "source_url": "https://raw.githubusercontent.com/SAOS-3624/dsh-see-now/916354d36e58fdd843fff96284ff7c985bd00020/LICENSE",
+      "bytes": 11339,
+      "sha256": "0f4587918026d801b3d9f77de89be59afd06301034f3f9bed5b6a1b1f2fd1c1d"
+    },
+    {
+      "file": "NOTICE",
+      "upstream_path": "NOTICE",
+      "source_url": "https://raw.githubusercontent.com/SAOS-3624/dsh-see-now/916354d36e58fdd843fff96284ff7c985bd00020/NOTICE",
+      "bytes": 2736,
+      "sha256": "80fddfb5edf555ba34d692ddaa9ae72b2b73b786dd2fe774b06d5065dd41eaa4"
+    }
+  ]
+}

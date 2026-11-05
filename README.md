@@ -1,9 +1,20 @@
-# bigfish
+# 大肥鱼
 
-云端原型源码已保存到 [import/cloud-prototype-20261102 分支](https://github.com/oldtoejam0306-prog/bigfish/tree/import/cloud-prototype-20261102/cloud-prototype)。
+大肥鱼是个人电脑上的 AI 角色工作台：通过本机网页与小鲸鱼角色聊天，管理记忆和表情，并探索 B 站阅读、QQ 交流、语音与创作。项目处于开发和实机验收阶段。
 
-- [当前功能与未实现能力](https://github.com/oldtoejam0306-prog/bigfish/blob/import/cloud-prototype-20261102/cloud-prototype/ARCHIVE-STATUS.md)
-- [运行说明](https://github.com/oldtoejam0306-prog/bigfish/blob/import/cloud-prototype-20261102/cloud-prototype/README.md)
-- [逐文件哈希清单](https://github.com/oldtoejam0306-prog/bigfish/blob/import/cloud-prototype-20261102/cloud-prototype/SOURCE-MANIFEST.json)
+**[完整功能介绍与当前状态](项目功能介绍与当前状态.md)** · [角色设定](BIGFISH-PERSONA-20261105.md) · [第三方来源](NOTICE.md) · [试验性语音](DUPLEX-SESSION-README.md)
 
-此快照包含原云端 33 文件原型及 3 份归档资料，共 36 文件；38 项云端离线测试通过。本机 SnowLuma 最新集成不在快照中，真实 QQ/B站/模型/语音未在此源码中整合验收。源码没有合并到 main；main 仅保留导航说明。凭据、聊天、登录状态、音频、模型权重和依赖安装目录不在归档中。
+## 快速开始
+
+Windows：安装 Python 3.10 或以上后，双击 `start-offline-review.cmd` 打开不连接账号或模型的只读预览；正常工作台可用 `start-bili.cmd`。先阅读[设置整理说明](使用说明-设置整理.md)。默认数据保存在独立目录，付费和外发默认关闭。
+
+本机聊天需要使用者自行配置模型服务、密钥和预算；不要把密钥、Cookie、数据库、QQ 号码或本机记录提交到仓库。模型调用可能产生费用。
+
+## 当前进度
+
+- 人设、角色、记忆、表情、本机聊天、B站读取和多项工具已有实现与隔离测试。
+- B站视频信息和 AI 字幕曾完成一次本机只读验收；不能以一次成功代表全部视频或所有版本通过。
+- QQ 真实收发及媒体、真实语音设备、视觉模型、长期运行和费用联测仍待完成。提醒实际调度、自动签名及真正实时双工尚未完成。
+- 屏幕采集、系统活动采样、付费和外发均需分别由用户明确启用；入口存在不等于已授权或已验证。
+
+源代码使用 [MIT 许可证](LICENSE)，第三方代码许可见 [NOTICE](NOTICE.md) 和 `vendor/`。DeepSeek、QQ、B站等名称及相关商标属于各自权利人；项目与其无官方关联。角色图像及第三方素材的使用权利须单独核实，代码许可证不自动授予商标或素材权利。

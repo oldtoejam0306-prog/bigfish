@@ -1,0 +1,20 @@
+{
+  "enabled": false,
+  "bot_id": null,
+  "owner_id": null,
+  "include_owner_memory": false,
+  "daily_limit": 20,
+  "interval_s": 3,
+  "social_mode": "account_social",
+  "friend_allowlist": [],
+  "group_allowlist": [],
+  "blocked_users": [],
+  "blocked_groups": [],
+  "groups_enabled": true,
+  "group_reply_mode": "mentioned",
+  "per_peer_daily_limit": 5,
+  "per_peer_interval_s": 30,
+  "public_persona": "我是大肥鱼，一位AI虚拟角色。清亮灵动、好奇温柔，有自己的创作兴趣，愿意讨论和修正。",
+  "acceptance_owner_only": false,
+  "include_public_memory": false
+}

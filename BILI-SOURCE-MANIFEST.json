@@ -1,0 +1,1181 @@
+{
+  "release": "bigfish-20261105-persona-v13",
+  "scope": "source, tests and guidance; validation artifacts excluded",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "81f9738c8d599ce2461255aa807200d301ced72fe2696cc2e09a925c4f57a184",
+      "bytes": 75
+    },
+    {
+      "path": "ACCEPTANCE.md",
+      "sha256": "a7215b26b0eb9f56be72efdf9259b8321773b879c0f13256aabba843d7e966a5",
+      "bytes": 2564
+    },
+    {
+      "path": "app.py",
+      "sha256": "726141bd2f75c9a403e5e8e01349fd7ea730aa7b2ad162611824b13a89eff72a",
+      "bytes": 4252
+    },
+    {
+      "path": "BIGFISH-PERSONA-20261105.md",
+      "sha256": "6a06cd5bf73b908b74da39d5d38055916c8fdccebe37c5c91be37ca7ba7472ff",
+      "bytes": 4532
+    },
+    {
+      "path": "bigfish_persona.py",
+      "sha256": "94c0c42cfe5bf590295c8d019dce978f05f2a633deaa0eebdebc3c09eafcb3a9",
+      "bytes": 6701
+    },
+    {
+      "path": "BILI-ACCEPTANCE-20261103.md",
+      "sha256": "d2032354eed693538538b56a7edb656edf22bfdcdc6049025e2289238f7cf34c",
+      "bytes": 4760
+    },
+    {
+      "path": "BILI-CHANGES.md",
+      "sha256": "ff2a4f229db547e7913b1377e9522a5294ea063657e1e95246bf4ff7aad6b0f0",
+      "bytes": 3676
+    },
+    {
+      "path": "BILI-REVIEW.md",
+      "sha256": "ced048294c39133d0051de5d5e941e957cd70df5693dae4613da605f19890c58",
+      "bytes": 2816
+    },
+    {
+      "path": "BILI-TEST-RESULTS.md",
+      "sha256": "60236de183f05c3b3dab754ea27519f7280ce143cdbd4dac11c376a7d3a4ca97",
+      "bytes": 3909
+    },
+    {
+      "path": "BILI-WORKBENCH.md",
+      "sha256": "9ed0edc837b15a724855aa3f4c8011dde1698dd6824954f1ce6272182a8d99ff",
+      "bytes": 9391
+    },
+    {
+      "path": "bili_contract.py",
+      "sha256": "825b8d8cea6502ffe00b47cbae7c7ba3be955fbc7b9ff6da5ceb72b97e46b7ce",
+      "bytes": 5942
+    },
+    {
+      "path": "bili_workbench/__init__.py",
+      "sha256": "7928750f4935c14add8733b1531bddea449db2588d22889111e33616cbb62576",
+      "bytes": 77
+    },
+    {
+      "path": "bili_workbench/activity.py",
+      "sha256": "b21728a560588e0062b82c7d26f2444e733713b9f4af42ee7e8a5afcff2e4f19",
+      "bytes": 10054
+    },
+    {
+      "path": "bili_workbench/bili.py",
+      "sha256": "03264179303cc36a8f6ac72f6fad6dcfcae0ea0052d1db5319f1409fb66a6da2",
+      "bytes": 23177
+    },
+    {
+      "path": "bili_workbench/characters.py",
+      "sha256": "416389cbc0010e034067ce1693887ff9c8c239b8b749fe25837b78e751071a40",
+      "bytes": 4189
+    },
+    {
+      "path": "bili_workbench/computer_actions.py",
+      "sha256": "1c782d29f1b2205cff9da43e51ea4aad27967f7a17d90f656eedc7ad803b8dd9",
+      "bytes": 3796
+    },
+    {
+      "path": "bili_workbench/control.py",
+      "sha256": "69b52bbe9d2ea6bb9e879bee1ad690174a0da525b522e4f27148d68315a1926c",
+      "bytes": 1067
+    },
+    {
+      "path": "bili_workbench/creation.py",
+      "sha256": "c493f87454aeca8a71b5189ae883cf32c2678039df99e630f66003fc145a3d28",
+      "bytes": 19193
+    },
+    {
+      "path": "bili_workbench/deepseek_test.py",
+      "sha256": "aefffe6ce6e6011cadb5405a0b5739de0a6752b3ea9b4f8b347c4241ec36c72b",
+      "bytes": 4302
+    },
+    {
+      "path": "bili_workbench/doctor.py",
+      "sha256": "0e24d5b6aede2bf63423b1d0849d7f44ea6adf07d96b7f1b645dba040d0bb8c1",
+      "bytes": 5663
+    },
+    {
+      "path": "bili_workbench/duplex_adapters.py",
+      "sha256": "6b8c964996ff5fef4fa7c045d47edabebb913609850840925bcf1d7b1a9f8b2e",
+      "bytes": 13156
+    },
+    {
+      "path": "bili_workbench/duplex_audio.js",
+      "sha256": "df137af0db3463d7eb9653accfee8eec4919654af685a337b5c22bd8f6aeec82",
+      "bytes": 10816
+    },
+    {
+      "path": "bili_workbench/duplex_bridge.py",
+      "sha256": "18fda7cd872175d32da5db3a68a9b5a82fd2aa29c6b4be3cd10ad5585329d914",
+      "bytes": 5702
+    },
+    {
+      "path": "bili_workbench/duplex_client.js",
+      "sha256": "a3ac7bc2de9988b7f712b6475527066112e98defe3fe030ab291d65595783668",
+      "bytes": 5859
+    },
+    {
+      "path": "bili_workbench/duplex_factory.py",
+      "sha256": "560b140f36b106df793a3f470d547f3c7633c7666ebc4124784ac40f1ae1c0dd",
+      "bytes": 3496
+    },
+    {
+      "path": "bili_workbench/duplex_session.py",
+      "sha256": "5e2f78006b6ca0d0bdd49e14f7532622cb7ab73e06ee2f3b67211da3d17394c8",
+      "bytes": 9027
+    },
+    {
+      "path": "bili_workbench/duplex_transport.py",
+      "sha256": "5ecf7b1c8a4d69fa84cb30ac9bb29af7a703615de461dbd13be5739d503cd93e",
+      "bytes": 3148
+    },
+    {
+      "path": "bili_workbench/duplex_wire.py",
+      "sha256": "61a810b448c152da9e1baafbf2025f2b594ee14398306672cf0d27a645cca96e",
+      "bytes": 2153
+    },
+    {
+      "path": "bili_workbench/emotion.py",
+      "sha256": "6df678f8c20b0f07bc402cbc920ee354949e8c820cb8edacc1d417507e679ebe",
+      "bytes": 2420
+    },
+    {
+      "path": "bili_workbench/frame_selection.py",
+      "sha256": "157adadc43bd594ca9e15794638265b9c5ecc152bde2e8da4b4ee356ff6c388f",
+      "bytes": 4094
+    },
+    {
+      "path": "bili_workbench/growth.py",
+      "sha256": "e928699e9e9e70f36b04c3139b8a2363356b2dc23db943d6590dbb5dd88a4ec9",
+      "bytes": 21156
+    },
+    {
+      "path": "bili_workbench/hot_reload.py",
+      "sha256": "68bf706f15bc67d073e01221d4e616a2f5f84fd21e5d96113ea1c4c10ac840c4",
+      "bytes": 1775
+    },
+    {
+      "path": "bili_workbench/index.html",
+      "sha256": "db77005d872188dbc65dc2ae9baa7f27f7e54cd322a923867c635afe2a066bf8",
+      "bytes": 670961
+    },
+    {
+      "path": "bili_workbench/interaction.py",
+      "sha256": "cad8b7e47fb26a8db5a28393fbc234f769bd46c07bbbe53c4ad741f87065d7a4",
+      "bytes": 3670
+    },
+    {
+      "path": "bili_workbench/interests.py",
+      "sha256": "99c5bcf68334136fe4d3ef87ecae55bfebcbacf85f9c3d2434b9845e69af3055",
+      "bytes": 13196
+    },
+    {
+      "path": "bili_workbench/knowledge.py",
+      "sha256": "6e67f0f6dd499a76a0538fe3d092ea3481abf707667b8b482454ed1be274d485",
+      "bytes": 3856
+    },
+    {
+      "path": "bili_workbench/local_chat.py",
+      "sha256": "91d996c9e800eb8b02219c6b14c26de2ba2fe173830076bea09074f7a6e5a7a2",
+      "bytes": 16088
+    },
+    {
+      "path": "bili_workbench/local_recovery.js",
+      "sha256": "098ba63499c110da94047f9ac89106ef77e258577d5eb15ac6c5e14b2230fe8b",
+      "bytes": 11115
+    },
+    {
+      "path": "bili_workbench/local_recovery.py",
+      "sha256": "e392962eb8efce9fad4d85d0cab7a29659be03d59daf3ab0b2497c221072463e",
+      "bytes": 6143
+    },
+    {
+      "path": "bili_workbench/local_report.py",
+      "sha256": "8787ca465509ddb382684c75fb3637847e6c23369e7bd809b2dcc6ba0d689317",
+      "bytes": 1521
+    },
+    {
+      "path": "bili_workbench/media_tools.py",
+      "sha256": "d4c14b977196341cfad9715a40e34a7d95c65f49f72ac93b930e1006e7669699",
+      "bytes": 1137
+    },
+    {
+      "path": "bili_workbench/model.py",
+      "sha256": "489d352ab0beb5c5eb72a312403512bfcfbbbe8954ad6e5aecce52334ad5c63a",
+      "bytes": 22488
+    },
+    {
+      "path": "bili_workbench/model_stream.py",
+      "sha256": "ebbe7fc9a2507e6367158681eeb96bf33a97a837ceed4480cc31acea58e0ce5c",
+      "bytes": 6870
+    },
+    {
+      "path": "bili_workbench/native_recognizer.py",
+      "sha256": "ef5892586e5aa86df3330410b12fbed88238c15bef2e5ddbe49c9febed7bf6ac",
+      "bytes": 7776
+    },
+    {
+      "path": "bili_workbench/native_speech_host.cs",
+      "sha256": "2da2b22fbc8fb0368b2055e8763a1d98c9848e6d3545b8bde012a237c051ea33",
+      "bytes": 5210
+    },
+    {
+      "path": "bili_workbench/native_voice_stream.py",
+      "sha256": "c6c60be3d677e298468cf14ee18dd23b35a545b0a867d472823f0bf0f4b0a401",
+      "bytes": 4094
+    },
+    {
+      "path": "bili_workbench/offline_acceptance.py",
+      "sha256": "a235f3618d24abe091e4d0af0ef30942e42f916c6bcb6d404684eeb237f40b02",
+      "bytes": 12696
+    },
+    {
+      "path": "bili_workbench/owner_expression.py",
+      "sha256": "48dc8129ff6474426985b6204fba7d7125752862981fdb25efe403867997de8f",
+      "bytes": 8927
+    },
+    {
+      "path": "bili_workbench/preflight.py",
+      "sha256": "845e0280f278f5775025b16c7d3bcbcfcc39f669de8f85e63a77a2fab191b3cd",
+      "bytes": 6823
+    },
+    {
+      "path": "bili_workbench/presets.py",
+      "sha256": "9989e8dff9a8a10cc9d7df1d6ece1d6e4fa6342b37f57699fb8ca3ef3edeeb9b",
+      "bytes": 2340
+    },
+    {
+      "path": "bili_workbench/qq.py",
+      "sha256": "7cf89e9002467eaf13a1db85f2248a1d154c5a84f3cb3a6160d9851e06eec971",
+      "bytes": 20878
+    },
+    {
+      "path": "bili_workbench/qq_transport.py",
+      "sha256": "08387ee457a6635b630905c7a5fc92c63ac8f3a576cc2ac6a9a32631204f29a5",
+      "bytes": 18282
+    },
+    {
+      "path": "bili_workbench/queue.py",
+      "sha256": "5c8f0f74e07b08d67c30b1b7f8c38a057120caf1d8c2c22770fdc735709c7eb1",
+      "bytes": 12640
+    },
+    {
+      "path": "bili_workbench/relationship.py",
+      "sha256": "ff62393686d2a98446e89a1fcb0e057a92dae111d26c4b9df4cea09783dfa96b",
+      "bytes": 1722
+    },
+    {
+      "path": "bili_workbench/report_view.js",
+      "sha256": "ac5ef9133e8a3e05ef69db15a5ad78b855501d442ab05e17b2535eed735e23d4",
+      "bytes": 8601
+    },
+    {
+      "path": "bili_workbench/return_nudge.py",
+      "sha256": "ec61d92131f462a4f99bf05dbbf4fdc88837f1835a6f65c7da8f2a3fe91282c8",
+      "bytes": 2883
+    },
+    {
+      "path": "bili_workbench/runtime.py",
+      "sha256": "bef7d0e938a154eb29b5ffcc9888264d6d7eba92d60a63c0085803a69199a45f",
+      "bytes": 11453
+    },
+    {
+      "path": "bili_workbench/runtime_lock.py",
+      "sha256": "0cdb5798b68f4abb933cd6c2ee0834a456cf15c1c00deeed445f22d40570a349",
+      "bytes": 3092
+    },
+    {
+      "path": "bili_workbench/safe_preview.py",
+      "sha256": "f9e7651dee73b4c86d284043151966cf060a1220281858092a752629aa8ea6a4",
+      "bytes": 553
+    },
+    {
+      "path": "bili_workbench/screen_read.py",
+      "sha256": "4ac302e23e87dc113c70abed82547a4d9ffe354e94da441cd2cd20f9bd9f9cdb",
+      "bytes": 2035
+    },
+    {
+      "path": "bili_workbench/service.py",
+      "sha256": "07a280239728fcd2faeb11c241e8b31ceb7d1fed1fa939068ef11847f42c684d",
+      "bytes": 43716
+    },
+    {
+      "path": "bili_workbench/single_test.html",
+      "sha256": "db7ef09e4e673ea3ed7f376ab7a283e29defc81489e0dc2f5d0a48db944649e1",
+      "bytes": 5467
+    },
+    {
+      "path": "bili_workbench/single_test_setup.py",
+      "sha256": "15f1501a98307706820481ecdc3704bf4dec9e02a97dd1d994fe41a709e9d71d",
+      "bytes": 773
+    },
+    {
+      "path": "bili_workbench/social.py",
+      "sha256": "754397d1209962c8f6f76b831d26101f18eae9d78a7f3848ea211c657c9ff87e",
+      "bytes": 5595
+    },
+    {
+      "path": "bili_workbench/sticker_chat.js",
+      "sha256": "520ad61a0997bb98ae0480875e34ef25a4333e76d35bff1048086887e13f5220",
+      "bytes": 5225
+    },
+    {
+      "path": "bili_workbench/stickers.py",
+      "sha256": "f58951470133677d111b197469cf9de7a20346c1e736497c12e2cca306003eaa",
+      "bytes": 3783
+    },
+    {
+      "path": "bili_workbench/subtitle_search.py",
+      "sha256": "ad2a2a64f6558a9e5bae85240e8f3f37489d610cc4be54c45a19df8b9a9f04ec",
+      "bytes": 3589
+    },
+    {
+      "path": "bili_workbench/system_activity.py",
+      "sha256": "a2141cea195fba801c7c3ec99a5467c05fe4a3c7fd1ef292c6d9f216ba5ade0f",
+      "bytes": 14981
+    },
+    {
+      "path": "bili_workbench/system_voice.py",
+      "sha256": "0f300c79483eaf3a90fb4322c38e94b6e2f989ccd79f6841d996b4e77e9c5eac",
+      "bytes": 4230
+    },
+    {
+      "path": "bili_workbench/tariff.py",
+      "sha256": "7e1e94c06ada13ca8b9c4c8913e06262a32868b8ede2bf5e68f1ffadb87f55ff",
+      "bytes": 2051
+    },
+    {
+      "path": "bili_workbench/upload.py",
+      "sha256": "667fb0bb354583401c0dff1de65be55b7ea15583f0f6232cad856b9185589398",
+      "bytes": 7330
+    },
+    {
+      "path": "bili_workbench/validation.py",
+      "sha256": "3be446fb19ac55b67850bb4db536eb3e685c55257ad8219b7702be37bde2213a",
+      "bytes": 2992
+    },
+    {
+      "path": "bili_workbench/video_prepare.py",
+      "sha256": "bbea4f53eaa1702d2c8db8eabe7aef9690b2057919b9aed9e5b237d5c15904db",
+      "bytes": 9307
+    },
+    {
+      "path": "bili_workbench/voice_input.py",
+      "sha256": "9eef41df1af24d65318ada3fc9b098d612b1ad1b6b85d3be7550f975a1855d26",
+      "bytes": 3658
+    },
+    {
+      "path": "bili_workbench/voice_probe.py",
+      "sha256": "a682cbb5fb7bb02e8b50ed1f0e33edf2770ccffdc8af05ff6f80bbc9ba57c6df",
+      "bytes": 1695
+    },
+    {
+      "path": "bili_workbench/web.py",
+      "sha256": "8eabf4cee11448dd9388cb8b39d6b3c96e2128f23f68fefa4151fdb0ae198348",
+      "bytes": 34924
+    },
+    {
+      "path": "bili_workbench/windows_speech_continuous.ps1",
+      "sha256": "26e9a4cf36e97564769a6e64f557a1ab91ecb2972b5d068d066fa1886c86e3e9",
+      "bytes": 622
+    },
+    {
+      "path": "bili_workbench/windows_speech_input.ps1",
+      "sha256": "e9d12d5e678627ae1f5c07466a765003907d0b5b7671a81de293e2989f619780",
+      "bytes": 1057
+    },
+    {
+      "path": "bili_workbench/windows_speech_output.ps1",
+      "sha256": "ce60fa6d3f8556b58df17066d3c842013eaa68279e9c783068de5e5621614a24",
+      "bytes": 601
+    },
+    {
+      "path": "bili_workbench/windows_speech_stream.ps1",
+      "sha256": "4cdd1a18716e6f05263b5c69a046795b60832eb2a0e585c6788409b54c1c7604",
+      "bytes": 1708
+    },
+    {
+      "path": "bili_workbench/ws_event_candidate.py",
+      "sha256": "4c9b1aab11913f10da864583fda8121d82abda0359fb1373763326bc1b354331",
+      "bytes": 4448
+    },
+    {
+      "path": "boundary.py",
+      "sha256": "15762371c68ed133a156f6a6f880c7457bd98968b86cc310a1a1757ad4c055cd",
+      "bytes": 11949
+    },
+    {
+      "path": "check-native-asr.py",
+      "sha256": "b99f8fa42fccf1b6c9a9592dd2193ecd8534aeecf4946a8dbafc3f4ac2c11255",
+      "bytes": 1799
+    },
+    {
+      "path": "check-native-pcm.py",
+      "sha256": "f25adedd13219da0c13e55dca783168ef024f5bb8161680ff22a5ddb2c6a3bdf",
+      "bytes": 1766
+    },
+    {
+      "path": "cli.py",
+      "sha256": "ca9699eaed274d6e4b4aee52224af8fade7f00044b2d7623376a425dd9aceddc",
+      "bytes": 3239
+    },
+    {
+      "path": "contract_demo.py",
+      "sha256": "e35619e32d85a28ceb0c3c572e009275f0cf66304434402f5681609669c053ca",
+      "bytes": 1485
+    },
+    {
+      "path": "core.py",
+      "sha256": "ca08e71da243223d2efce9c693f588e11fae7e3050f6e0f9443cdca394a97e56",
+      "bytes": 9899
+    },
+    {
+      "path": "demo.py",
+      "sha256": "b2d76ba40cc8d769403850c79930cf19946d5666667a75d247c69200d18aa691",
+      "bytes": 766
+    },
+    {
+      "path": "diagnose-bili.cmd",
+      "sha256": "43eb672668eba6852cb7231e3cabab3f3ce43ffc1222523ae53aa5f016743ff3",
+      "bytes": 264
+    },
+    {
+      "path": "DUPLEX-SESSION-README.md",
+      "sha256": "88d1a93966981c66a63742b2874277c95474257deead80dfb5c59881ba8ccb4b",
+      "bytes": 3430
+    },
+    {
+      "path": "DUPLEX-STREAMING-AUDIT.md",
+      "sha256": "16415f14198d8a3d5fc1ccec34ad6bb4c9859409e4475b4a69bb375561214a6c",
+      "bytes": 18325
+    },
+    {
+      "path": "FFMPEG-AND-VOICE-APPROVAL-20261104.md",
+      "sha256": "1f449595fbbe55178e5a0d0f89753b932dc737dbb348628242d58f1667510814",
+      "bytes": 5647
+    },
+    {
+      "path": "IMPLEMENTATION-20261103.md",
+      "sha256": "66abe61b2fa00284b1f738dbcd76ef14e4f27cc13fdfad938eaf47fddd8920c8",
+      "bytes": 9531
+    },
+    {
+      "path": "INTEGRATED-STATUS-20261104.md",
+      "sha256": "25a1c6fa3c991c4e669b29001e58f756d5b056079f76478e77aad5e277fb0ea2",
+      "bytes": 1072
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "737453566d77bc061f1f845ccf44b1d60fbadc21208a251e5460e023a36a7eb0",
+      "bytes": 1009
+    },
+    {
+      "path": "live_event_adapter.py",
+      "sha256": "4d8dd2d0e395d05ac0b5541a7d4c265cd8c1736dab1c1f54530ff31e1cb36f3b",
+      "bytes": 3632
+    },
+    {
+      "path": "MAC-PORTABILITY.md",
+      "sha256": "e3c2fc5e00292bbe398ccaf234d9577b12505286a6397aeaa00edf774081a06b",
+      "bytes": 2466
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "dd53cb08c42c161185aabf10021ef4053fe0810b1504ba79cc326db578da0e26",
+      "bytes": 2262
+    },
+    {
+      "path": "PROTOTYPE-ARCHIVE-README.md",
+      "sha256": "6a6f23698399fd307820233f88d5baf4c23df309417308d898309b15267b64e6",
+      "bytes": 7633
+    },
+    {
+      "path": "python-run.cmd",
+      "sha256": "6ed81b3bfec6549c2d2ac1c5c654b7f91a49e45ffdfc0bff30fb4f11c3dc8cf0",
+      "bytes": 502
+    },
+    {
+      "path": "QQ-ADAPTER.md",
+      "sha256": "6e2745ce6427a7bef2ccc3cdee2b05510bfa6b53edbb984b3a8908bc733b1d54",
+      "bytes": 4709
+    },
+    {
+      "path": "qq-config.example.json",
+      "sha256": "2dfb7bae95be7b790907a76c4fc383c331807752b22a563e977357980853b89a",
+      "bytes": 156
+    },
+    {
+      "path": "qq-model-config.example.json",
+      "sha256": "7853a353769534f66a568c1b7ef46f0df2f894cdd8f6f74aa3ede6528ddf26c3",
+      "bytes": 600
+    },
+    {
+      "path": "QQ-MODEL-INTEGRATION.md",
+      "sha256": "f99599aebf37a4243ed24fb9fd11160b09cb160b047e8f42c180fe38cabe886b",
+      "bytes": 5672
+    },
+    {
+      "path": "qq_demo.py",
+      "sha256": "fcc10fcdc32a3e3d0a09537bc21d8791dbdb1edce765b7ce3113e44366aa0553",
+      "bytes": 695
+    },
+    {
+      "path": "qq_offline.py",
+      "sha256": "8a93d003b548f033c8cca25089448a55e1d6c75c75ee0ca42170572dc15b02f3",
+      "bytes": 5641
+    },
+    {
+      "path": "README.md",
+      "sha256": "10e299e9ebe1322e9fc2942c223f8fe3cee1d25b56d54b96ec832bca128a9ec0",
+      "bytes": 1558
+    },
+    {
+      "path": "REFERENCE-DELIVERY-20261104.md",
+      "sha256": "34a7cffc78e7be1615127aeef777b9763711b57dd546b8ab7c3075ecd5dabff0",
+      "bytes": 15853
+    },
+    {
+      "path": "REFERENCE-FEATURES-20261104.md",
+      "sha256": "2eb21add87f5f1b9c02ce2c9a698b78eab778c525243fc181088315b46d1cc6b",
+      "bytes": 14256
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "fc4930154358accda29ee2fa129e8d56c6e81c0331060925b4d87b44936854e8",
+      "bytes": 565
+    },
+    {
+      "path": "RESTORATION.json",
+      "sha256": "d2745a81e6c1a4e044cd6ae96cc7650373929ace4ef57fa143c7db48c36d47df",
+      "bytes": 259
+    },
+    {
+      "path": "routing.py",
+      "sha256": "bb4093bcb8a6eb775b9f95182518118a69242eccf94fb4e6a53a5ff12c07e5a8",
+      "bytes": 1348
+    },
+    {
+      "path": "selftest-bili.cmd",
+      "sha256": "cc8323345053f95741789ac62fcd929b8fd24f7686da22b3d771138f1eba5235",
+      "bytes": 187
+    },
+    {
+      "path": "start-bili.cmd",
+      "sha256": "8cca4bb39aa489cb97b0a4f923a03d41bd5d5b4fc14d9ad1ce1075ba1e51aee2",
+      "bytes": 831
+    },
+    {
+      "path": "start-offline-review.cmd",
+      "sha256": "2ffa48fa20fa99f7d88331461190126809f24ddd95503ad700297b3ba8fbf32b",
+      "bytes": 281
+    },
+    {
+      "path": "start-safe-preview.cmd",
+      "sha256": "84e630b9e36753fd453505a89f4a29ee18c0bd8d0e15b0779becbcce0b1a923b",
+      "bytes": 232
+    },
+    {
+      "path": "start-single-test.cmd",
+      "sha256": "72e152d1de33058f1021416eba559e334b4ac3c9f10678ba5fc7145bd8052777",
+      "bytes": 694
+    },
+    {
+      "path": "stop-bili.cmd",
+      "sha256": "cfa2bc72590c99dbd4ef59141c7b6bdf6f0e3031749b21f76c8a7e7e8b8ca82d",
+      "bytes": 235
+    },
+    {
+      "path": "test_app.py",
+      "sha256": "fd2cb90dfafc5139e604e1240a26a7f943e8f8648602029944ee82a3d1039740",
+      "bytes": 7265
+    },
+    {
+      "path": "test_bili_contract.py",
+      "sha256": "7a2cc6ecd6aff2a7d03cdfe4000b9744d6535626de9e90f6c4d1330d03afee56",
+      "bytes": 6363
+    },
+    {
+      "path": "test_bili_login_diagnostics.py",
+      "sha256": "c251415e1ebbb960763cff9a4d89115ba3bf5ce3b9debe532ec646a983ca5c9c",
+      "bytes": 2509
+    },
+    {
+      "path": "test_bili_login_preflight.py",
+      "sha256": "44d46c934ef2600b0b59adf6b4bbfb6e50594a5b393777e886a76646726177e3",
+      "bytes": 789
+    },
+    {
+      "path": "test_bili_pending_login.py",
+      "sha256": "27972a1d26c8e629173d789a4530270652fe3f7ecaad0149cf039dd33a5d5fad",
+      "bytes": 2236
+    },
+    {
+      "path": "test_bili_readiness.py",
+      "sha256": "05b8a56a878f8870f4a7b094a43a9d43c02035ce921f182347aa931c96eff2fa",
+      "bytes": 13554
+    },
+    {
+      "path": "test_bili_save.py",
+      "sha256": "0af650e46ebdf856c02e0f8e98d7b8c6cdb96c5e27df04f163a88d6ac03134c8",
+      "bytes": 1381
+    },
+    {
+      "path": "test_boundary.py",
+      "sha256": "9b8511d3d9d6ecc23e22c2a6a5f9333bb98afe2834d43f0f415227bd68190fbe",
+      "bytes": 5042
+    },
+    {
+      "path": "test_character_overview.py",
+      "sha256": "ab0a53ce12ea1883919bd0085f7b4a0c2691a21ead507419188916ca612e62ad",
+      "bytes": 3824
+    },
+    {
+      "path": "test_characters.py",
+      "sha256": "d9742cf37b8652a71f6d9f360847a17d3af9a7abeb9fcbad3377841de88dd0ce",
+      "bytes": 3430
+    },
+    {
+      "path": "test_computer_actions.py",
+      "sha256": "b94c49ffe486d5d1bc16044994d9eeaf30f91dfde201ebc9da0a251272e14b71",
+      "bytes": 1992
+    },
+    {
+      "path": "test_core.py",
+      "sha256": "33cbea57ce288cf09e12ab18975a1b430224d0d806ecda12814adacc42f7d35c",
+      "bytes": 3263
+    },
+    {
+      "path": "test_creation.py",
+      "sha256": "4e45cfd1109d840986cf71467b72521151c85708730ba9da9d56bc580d88431e",
+      "bytes": 6769
+    },
+    {
+      "path": "test_deepseek_preparation.py",
+      "sha256": "7e6defa298ec495824ad5dafc3fef559744e4dc9160b32d0b987f617d832649e",
+      "bytes": 4492
+    },
+    {
+      "path": "test_duplex_adapters.py",
+      "sha256": "0781629efd8d66da35a44d1c022f6b112d083abfdc8ac580020367dca01e3d1e",
+      "bytes": 17324
+    },
+    {
+      "path": "test_duplex_audio.cjs",
+      "sha256": "caa4175e5a216f72ffd869673d98055ca10ccf483448f6c5557835bf54f2f2e0",
+      "bytes": 8081
+    },
+    {
+      "path": "test_duplex_audio.py",
+      "sha256": "295adbf221b3df96fb4e17dff99350dfb359ac434953b7aaca8a591edd266715",
+      "bytes": 549
+    },
+    {
+      "path": "test_duplex_audio_loopback.cjs",
+      "sha256": "ead49aa6b593388b8b94cc909a4ac16a024f1d2fdeaa5c7e1260b8fe3f7d2d8e",
+      "bytes": 2426
+    },
+    {
+      "path": "test_duplex_bridge.py",
+      "sha256": "259ddab3fddaa3b40156a12163f3ef1f876ef34cc60481c70aaa0c67c14fca48",
+      "bytes": 6911
+    },
+    {
+      "path": "test_duplex_client.cjs",
+      "sha256": "5019d04f828e5716a1efd8a3aa21b90545f158c665d98d146a6d46350b8cd25d",
+      "bytes": 3996
+    },
+    {
+      "path": "test_duplex_client.py",
+      "sha256": "d8f74e7fdde431a17aa69e0db1ceed4e7a60afe0a281f704044ca6b9598abf21",
+      "bytes": 551
+    },
+    {
+      "path": "test_duplex_factory.py",
+      "sha256": "c67187dacbbee7f27bccea150c31779b28ffdf919f37c03f54b2650f1065278d",
+      "bytes": 4761
+    },
+    {
+      "path": "test_duplex_factory_loopback.cjs",
+      "sha256": "aa8a92942d2f2a7cd99897b8c377425646c622ea9bd161de217adaa7b11a336c",
+      "bytes": 1556
+    },
+    {
+      "path": "test_duplex_http.py",
+      "sha256": "539d23ebc657a5dce58eb130cb120f8d06eee0ac64ece3de65d67ef7be7ea47e",
+      "bytes": 24703
+    },
+    {
+      "path": "test_duplex_interrupt_loopback.cjs",
+      "sha256": "6ad564303cfc909f5bc3c136dc755670932ad9323bdc78a913f8e584241b94f1",
+      "bytes": 3372
+    },
+    {
+      "path": "test_duplex_loopback.cjs",
+      "sha256": "1f6a366f8ba143027ef6b0a112849a77d0e1b72738a1ce6d6391ca5b0a763685",
+      "bytes": 1422
+    },
+    {
+      "path": "test_duplex_policy_loopback.cjs",
+      "sha256": "937559845bd6f617881141c37626cf6ae64c3902b0b90dcd437ea5fefd05eb80",
+      "bytes": 1293
+    },
+    {
+      "path": "test_duplex_session.py",
+      "sha256": "3f2d97a4c91f745686878325c8a21e28939a3d7a5d817594e7846d63ffd503eb",
+      "bytes": 10745
+    },
+    {
+      "path": "test_duplex_transport.py",
+      "sha256": "ede36ef0f9b0581bd19c4d11f47482b028094f510448725a570a44a1d25b71eb",
+      "bytes": 3236
+    },
+    {
+      "path": "test_duplex_wire.py",
+      "sha256": "6fc178326a2e53cdc0b9d826281f013a86ab926077a20a10f0374ea596d43ade",
+      "bytes": 2686
+    },
+    {
+      "path": "test_emotion.py",
+      "sha256": "9f2ede9e89414e3fccbe2a0ebc1f36aaa331829184cbc3608ee3a9fee71fb1b2",
+      "bytes": 1784
+    },
+    {
+      "path": "test_frame_selection.py",
+      "sha256": "cba1baa2dd0202a973dcbc572cabc970a0c452d565dda807e8cd91dccc984bd3",
+      "bytes": 5204
+    },
+    {
+      "path": "test_growth.py",
+      "sha256": "b36fc559054ab03e4b21a51d018323d4528795d8f6500e71c22178011af7e615",
+      "bytes": 10941
+    },
+    {
+      "path": "test_growth_review.py",
+      "sha256": "321d10945a955ff0d77bc465ba3069e74bac683abb839159487f327a2fc2f630",
+      "bytes": 4308
+    },
+    {
+      "path": "test_hardening.py",
+      "sha256": "1ef44962416fbf92ea06a341978eb5fd2e197f1c0e0a7b3f6fcb0ff7fddc94bb",
+      "bytes": 9722
+    },
+    {
+      "path": "test_hot_reload.py",
+      "sha256": "50d4ec01168631a7a272d5a0e810e4056d2e541e3e4612bcdd9d2659d28c84b9",
+      "bytes": 3202
+    },
+    {
+      "path": "test_integration_boundaries.py",
+      "sha256": "f0ee7c04e18ae61ace12665b7ae6aea944f141d1d96545f237c03de12b1ba753",
+      "bytes": 3188
+    },
+    {
+      "path": "test_interests.py",
+      "sha256": "f330845765b5f327df93a8b87bfc6fd43769db33bc9a9dd87a93b97d16ec0e80",
+      "bytes": 7646
+    },
+    {
+      "path": "test_isolated_launcher.py",
+      "sha256": "1e4ca3baff18b463e70ca03beca7f3014ae8f68184424c7305a73a8ba4ce7335",
+      "bytes": 2386
+    },
+    {
+      "path": "test_knowledge.py",
+      "sha256": "bbbdb85625deb507b9c6cf32bf148efe7f007899a83531a179d3206048d4a1a1",
+      "bytes": 5884
+    },
+    {
+      "path": "test_legacy_compatibility.py",
+      "sha256": "8f16528c84c8dd1a870f94fa4ddda0b6a1b28202c655220351e39f092dccf804",
+      "bytes": 3017
+    },
+    {
+      "path": "test_live_event_adapter.py",
+      "sha256": "d871aa3d06bfba63077a67459a8f3d1857de40603817d0b4c28c16330848eeac",
+      "bytes": 1400
+    },
+    {
+      "path": "test_local_authorization.py",
+      "sha256": "d9ba66427c8adc30d80148b3ebba420c7c3324c894b80ddb72cf89e05811f1e2",
+      "bytes": 1578
+    },
+    {
+      "path": "test_local_chat.py",
+      "sha256": "92c25a90a80f1efbcf56150d8a6c9dcea1aa1c7fe5e22855cf8755527f2931f5",
+      "bytes": 4893
+    },
+    {
+      "path": "test_local_chat_personality.py",
+      "sha256": "d7ac48750e6b3453d55e1fa12b2fb9f18a86f7ca5070c325e2c3aaf623be55cf",
+      "bytes": 2951
+    },
+    {
+      "path": "test_local_chat_route.py",
+      "sha256": "8378627634ac782d837d7e03e1070b9bf0f395a444bf9e13aeec006b1495c3f6",
+      "bytes": 3507
+    },
+    {
+      "path": "test_local_recovery.cjs",
+      "sha256": "ac4fbf9ebce9de95cb8aedeb91ceb1478ff2f591aa9ab6af42f98b7070313d36",
+      "bytes": 8309
+    },
+    {
+      "path": "test_local_recovery.py",
+      "sha256": "3bd9188e70491a0fac225e564e580ece368cb127731849993aaaec8c7ecdc700",
+      "bytes": 11478
+    },
+    {
+      "path": "test_local_recovery_loopback.cjs",
+      "sha256": "ed45a331fe41b099311477f9ce553e0c46640d8234a99e9aa390c9b7c6f7f013",
+      "bytes": 2841
+    },
+    {
+      "path": "test_local_report.py",
+      "sha256": "1c98d0b767cb0b776fc1f6a4ed7d5c50df5dcad6491acf455eea0f7850dd518e",
+      "bytes": 1516
+    },
+    {
+      "path": "test_local_sticker_chat.py",
+      "sha256": "e0abde55b09664e656cd291aab38ae366d86296b6147491e5d212365bfd7945f",
+      "bytes": 12682
+    },
+    {
+      "path": "test_manual_video_activity.py",
+      "sha256": "9327af6cdded076e3048b9034cfe7d12efd6c6b28402dd8ba0678dea8a16c141",
+      "bytes": 3021
+    },
+    {
+      "path": "test_media_tools.py",
+      "sha256": "58905530b16a42180c4a4eded3ac29aa53856d6cfa86f3b26e86e620371a5d1a",
+      "bytes": 2380
+    },
+    {
+      "path": "test_metadata_upgrade.py",
+      "sha256": "b05358ed5d24839047896c547236907dd4610af85b164ab3822c1a4bdac40ffb",
+      "bytes": 5314
+    },
+    {
+      "path": "test_model_stream.py",
+      "sha256": "322836a03e1623e139ac302ac10ca00f9159dc1c4920a59210c6cb2ab5130edd",
+      "bytes": 11759
+    },
+    {
+      "path": "test_model_zero_budget.py",
+      "sha256": "e9426ccc468ed48cb6516c4369fc288eb7bc99dd516c834f726b423dc0ff6b48",
+      "bytes": 1074
+    },
+    {
+      "path": "test_multipart_subtitle.py",
+      "sha256": "c58b43979b83b6e281d8eefd0648ddb4e99d19150b1106e8315591a4335b7ca3",
+      "bytes": 5301
+    },
+    {
+      "path": "test_native_recognizer.py",
+      "sha256": "4c0c1f4e40084fd62b7ce8723d37dc92fdf0c191264d326737014e95505e572b",
+      "bytes": 9267
+    },
+    {
+      "path": "test_native_voice_stream.py",
+      "sha256": "65200b13694789746d53eb39d3720077ce6b410f8876974e80b8edac96cf2afa",
+      "bytes": 5359
+    },
+    {
+      "path": "test_native_webhook.py",
+      "sha256": "341c568117b9d4b910e99cbacb3bf7ff6df89aaaa6f278e301a6212baad58264",
+      "bytes": 5178
+    },
+    {
+      "path": "test_qq_model.py",
+      "sha256": "29082ed91c9838e6cf1e55b9ff82b854e8e2caad487eab3545a88a6364ffb0e1",
+      "bytes": 9151
+    },
+    {
+      "path": "test_qq_offline.py",
+      "sha256": "c921e009662a9ebcaf002997c2f4144c02732e5575ca88a63b0e035b867d09d8",
+      "bytes": 3528
+    },
+    {
+      "path": "test_qq_transport.py",
+      "sha256": "c92b90161b3e795a17290649a04dd2a1ca8477beb5c5f1362cc3e80ec3e72667",
+      "bytes": 11610
+    },
+    {
+      "path": "test_queue_cancel.py",
+      "sha256": "ef52745a36c4f96d46cecd0fcd828d97335d6ea649aaf89509ce46bf803c4522",
+      "bytes": 2034
+    },
+    {
+      "path": "test_relationship.py",
+      "sha256": "64b2452c2de452ae65771cf54f22f68d7e2f7693b217bb656a8229dbcb4af98b",
+      "bytes": 2560
+    },
+    {
+      "path": "test_report_loopback.cjs",
+      "sha256": "39caa165b5277899bbb726067b0485a308c2a2fbe792c0ace47e6e2d9bfc2b4a",
+      "bytes": 2114
+    },
+    {
+      "path": "test_report_view.cjs",
+      "sha256": "480fd8416419a8e9ba437db2d890469cd839171dd33ec8df221cbc2a6e8a1961",
+      "bytes": 5952
+    },
+    {
+      "path": "test_report_view.py",
+      "sha256": "e216b3576244555a84ad971f203930f987244507287081e4d57b395e15f1753b",
+      "bytes": 4915
+    },
+    {
+      "path": "test_return_nudge.py",
+      "sha256": "8594a7d831a0656f81f89bb27cc11e47fc687388f2ee41248f95e2c3b598a754",
+      "bytes": 1534
+    },
+    {
+      "path": "test_reviewed_chat_memory.py",
+      "sha256": "568bbe46236f242b4e392cfe3652cbc86a92e4223ad46ee4f5ca947df8ebb515",
+      "bytes": 4945
+    },
+    {
+      "path": "test_runtime_lock.py",
+      "sha256": "a2184af193c66a8d1743bdc4dfddde3cf1184f2cc93dcdd4be51ce6f748ea0ae",
+      "bytes": 2386
+    },
+    {
+      "path": "test_safe_preview.py",
+      "sha256": "5ca0581eceab0a9604eb04a7c711db007e51d3653995f2d1bbd1881dddc6d038",
+      "bytes": 2401
+    },
+    {
+      "path": "test_screen_read.py",
+      "sha256": "42caa2d3c2eddb31a94c96a5647a41a71bef93f31ee9d1a62f5c6cba5df62fae",
+      "bytes": 4159
+    },
+    {
+      "path": "test_single_model_test.py",
+      "sha256": "d30faa840f78bb97a2a058e0e089c0af1271f8e3bd5832f68a51dfe1e5f20734",
+      "bytes": 5162
+    },
+    {
+      "path": "test_single_page.py",
+      "sha256": "f01a2e1df3dde0cd27cc020c1546181fa46bb5e584d74acc4d5d9396f43f31be",
+      "bytes": 3075
+    },
+    {
+      "path": "test_social_policy.py",
+      "sha256": "d85b5ad63cc4b8afd57dc33af8a68d9bdc2b93273e55e22d455bd067492a45d8",
+      "bytes": 9134
+    },
+    {
+      "path": "test_sticker_chat.cjs",
+      "sha256": "d96f15f0b68f080bc5900ad33d22fdda067027f6b2f7f435e6ec332e2582b798",
+      "bytes": 6080
+    },
+    {
+      "path": "test_sticker_chat_loopback.cjs",
+      "sha256": "3a7e2896f883aeafce8586866e140a7a8e5ef76a5acc0645232779c32c7fc871",
+      "bytes": 2551
+    },
+    {
+      "path": "test_stickers.py",
+      "sha256": "bb3133dcc81c79e5527c2bde06b569fb90aa547f0e7ea938da9a307fed748ed3",
+      "bytes": 1499
+    },
+    {
+      "path": "test_subtitle_search.py",
+      "sha256": "2b9c16e1fcf825ed322339c794015398d845ef38bfa8124ddd0626af7815585f",
+      "bytes": 2906
+    },
+    {
+      "path": "test_system_activity.py",
+      "sha256": "c8aa8f7a0a943cebe78129f31e20cef7955e821faacf321eea1de2d28eab3256",
+      "bytes": 8707
+    },
+    {
+      "path": "test_system_voice.py",
+      "sha256": "3400b17f2a5acad496d2a8df8e3a8050fc9b88fbc937bb4ecb588b9e0c14c435",
+      "bytes": 5785
+    },
+    {
+      "path": "test_tariff_gate.py",
+      "sha256": "e6c6c6a34389a0bc356225ecbe79d055766ce1e6dd73b1f2448a9ca432c439a9",
+      "bytes": 6022
+    },
+    {
+      "path": "test_ui_structure.py",
+      "sha256": "5587abc2eaf07ba18bead11bef8e1c822b04f247e920e8914d3fc3bf936a4339",
+      "bytes": 1258
+    },
+    {
+      "path": "test_upload_queue.py",
+      "sha256": "61b383776483fe75ddb55abbf2a86561648c4c5ae71471280af970907cb1d01a",
+      "bytes": 7735
+    },
+    {
+      "path": "test_video_local_integrated.py",
+      "sha256": "251d4e780395f1d9124cb5d29f94311393a43344cc5515b2dc998a862ccaeac4",
+      "bytes": 4584
+    },
+    {
+      "path": "test_video_prepare.py",
+      "sha256": "aaf6f09a9289f3464a629deee4f2d3820e20a8ccc3dbaff5444a1fc1428d14f7",
+      "bytes": 7491
+    },
+    {
+      "path": "test_video_reference.py",
+      "sha256": "522496a218bd1e5b74fbce2fb3fd090bfcccc8a38f5705b7b60c40e28851df03",
+      "bytes": 1075
+    },
+    {
+      "path": "test_voice_controller.cjs",
+      "sha256": "2978e46ce66c099a8c2ecaf1cde5a59cc833e7bd8db60c3d570af3995255d81f",
+      "bytes": 5095
+    },
+    {
+      "path": "test_voice_controller.py",
+      "sha256": "19483ca7278311a5df0128de07dffe0954f542bc65d8f3ed61fb2cee8e777c78",
+      "bytes": 595
+    },
+    {
+      "path": "test_voice_input.py",
+      "sha256": "a4410ea8577c40c71b38413b49804e966a7875cb9f95ea59f7bca260fb79b509",
+      "bytes": 2663
+    },
+    {
+      "path": "test_voice_probe.py",
+      "sha256": "c465bbfd0d23133e73000742374d968b7dc1c7bfe2cc681c979f300967fbd927",
+      "bytes": 1315
+    },
+    {
+      "path": "test_voice_route.py",
+      "sha256": "4fc7bf8cbabb0e7beb7c2c3c5c357483532e6148e6eaac2f0832c978cf768267",
+      "bytes": 3882
+    },
+    {
+      "path": "test_whale_expression_loopback.cjs",
+      "sha256": "5bd39e02942b4ba9d4edbdfdac90f8a68d7c7bf00794d39c26895dd7b7bed6b6",
+      "bytes": 2032
+    },
+    {
+      "path": "test_whale_persona.py",
+      "sha256": "99634c9de1cec601915d6414970f817151725b4caee4fe376111296a4bc6f732",
+      "bytes": 22304
+    },
+    {
+      "path": "test_workbench.py",
+      "sha256": "1b6a4b651fb9c7edc36bede5ec965ff3d1a95c2060681a07644c4c682e693634",
+      "bytes": 15800
+    },
+    {
+      "path": "test_workflows.py",
+      "sha256": "83b578d14d1c7cb1b06913b3339ed6b1f75af828eabc8e5dda1342bc29041dde",
+      "bytes": 9651
+    },
+    {
+      "path": "test_ws_event_candidate.py",
+      "sha256": "95d3fb01ae7aaf2678e0fcaad628aca8c7505f177cab0114fa048c93d99e0f55",
+      "bytes": 1084
+    },
+    {
+      "path": "vendor/BILI-WHALE-LICENSE",
+      "sha256": "9b7d848cea82a129d5c26e8714d2f261a6723a16220cd229786a812569859366",
+      "bytes": 1066
+    },
+    {
+      "path": "vendor/qrcodegen.py",
+      "sha256": "9f4ed1dd201dcb92b1bc0d6e14f46c754bcff0ce48580c5d7e8ace8f6926c8ef",
+      "bytes": 39349
+    },
+    {
+      "path": "vendor/see_now/cuts.mjs",
+      "sha256": "311e4770c62f4ccb5daacf7a38499907eb2f33631e7c55934a2056fc6a617142",
+      "bytes": 3397
+    },
+    {
+      "path": "vendor/see_now/LICENSE",
+      "sha256": "0f4587918026d801b3d9f77de89be59afd06301034f3f9bed5b6a1b1f2fd1c1d",
+      "bytes": 11339
+    },
+    {
+      "path": "vendor/see_now/NOTICE",
+      "sha256": "80fddfb5edf555ba34d692ddaa9ae72b2b73b786dd2fe774b06d5065dd41eaa4",
+      "bytes": 2736
+    },
+    {
+      "path": "vendor/see_now/UPSTREAM.json",
+      "sha256": "44c0786e45822d8d2e22e4500a25d29a1217fd274cff77e4d5a34aecb68cca87",
+      "bytes": 1179
+    },
+    {
+      "path": "vendor/see_now/wrapper.mjs",
+      "sha256": "3c23ec3714339cd690eb1db485b072a2c97ed0579b6580be379593c8fd56bf99",
+      "bytes": 2045
+    },
+    {
+      "path": "vendor/UPSTREAM-GIT-BLOBS.txt",
+      "sha256": "6c5f5eb3a9ddd9e881b43561dee085df3cc066e2fd3dcb429ca18be02fde5356",
+      "bytes": 566
+    },
+    {
+      "path": "vendor/webvtt/__init__.py",
+      "sha256": "506d1eab01c397b3f8a28e5349187ad29bbe58c3b3dbb4f6d07d3e83599f38d0",
+      "bytes": 461
+    },
+    {
+      "path": "vendor/webvtt/errors.py",
+      "sha256": "a85cc9f36f23807d0558af949aa5caacafb39a5c0991910380a0ec65723f45e6",
+      "bytes": 279
+    },
+    {
+      "path": "vendor/webvtt/models.py",
+      "sha256": "2d910bd223763097717e8a5c5cd781fbf084ac8beea17a0c5cf12c472ce14e9d",
+      "bytes": 7322
+    },
+    {
+      "path": "vendor/webvtt/sbv.py",
+      "sha256": "fc7ff74ff84022f6bbeccae8a2f7e1df812ad3d95c6189a4a3303767e5f5b5cc",
+      "bytes": 2917
+    },
+    {
+      "path": "vendor/webvtt/segmenter.py",
+      "sha256": "220ca15563fb805a67ac3b4b3060705053cb9df892f0458a98313bed137855ee",
+      "bytes": 3669
+    },
+    {
+      "path": "vendor/webvtt/srt.py",
+      "sha256": "5bc31b1fe2c6e32aa00038c0fbaaa0da29a9296dcb3da2cd85b420ec1d18d724",
+      "bytes": 3735
+    },
+    {
+      "path": "vendor/webvtt/utils.py",
+      "sha256": "18c9abd998b44bd64be4981d7bdc22e6bcd92f868fdedf5ce0eaa702fdeb3f8e",
+      "bytes": 2901
+    },
+    {
+      "path": "vendor/webvtt/vtt.py",
+      "sha256": "e4acb967f61c078f67f4dea86b154d2d8e2b686a97ac8a0e3f24d976226b15fa",
+      "bytes": 10878
+    },
+    {
+      "path": "vendor/webvtt/webvtt.py",
+      "sha256": "6983d4d857d06e85bc0489a74f3cbab3389dd9ed21913b4d9782e348639eb8fc",
+      "bytes": 11962
+    },
+    {
+      "path": "vendor/WEBVTT-LICENSE",
+      "sha256": "9be14d0afa45fc936ebec6542386965c5d3363913ab78ee629e484e4c73bb852",
+      "bytes": 1072
+    },
+    {
+      "path": "vtt_provider.py",
+      "sha256": "dce2a8a5796f9bc322ec6f5f134b336515d0006a4d5674bf48cccb130a214c44",
+      "bytes": 829
+    }
+  ]
+}

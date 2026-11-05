@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>大肥鱼 · 单次模型测试</title>
+<style>
+:root{font-family:"Microsoft YaHei UI","Segoe UI",sans-serif;color:#203c36;background:#f1f6f2}*{box-sizing:border-box}body{margin:0;padding:48px 20px}.wrap{max-width:660px;margin:auto}h1{font-size:28px;margin:0 0 8px}p{line-height:1.7;color:#526d63}.panel{background:#fff;border:1px solid #d5e5dc;border-radius:14px;padding:28px;margin-top:24px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:16px 0;border-bottom:1px solid #d5e5dc}.facts div{font-size:13px;color:#5d756d}.facts strong{display:block;font-size:16px;color:#203c36}.notice{padding:12px 14px;border-radius:8px;background:#edf5ef;color:#355e4e}label{display:block;margin-top:18px}input[type=password]{display:block;width:100%;padding:12px;margin-top:6px;border:1px solid #a8c6b8;border-radius:8px;font:inherit}input[type=checkbox]{accent-color:#287d64}button{margin-top:22px;padding:12px 20px;border:0;border-radius:8px;background:#236c58;color:#fff;font:inherit;cursor:pointer}button:disabled{background:#a2b6ac;cursor:not-allowed}:focus-visible{outline:3px solid #65ad91;outline-offset:3px}#result{white-space:pre-wrap;overflow-wrap:anywhere}.fine{font-size:13px}@media(max-width:480px){body{padding:26px 14px}.panel{padding:20px}.facts{grid-template-columns:1fr 1fr}}
+</style></head><body><main class="wrap"><h1>大肥鱼的第一次模型测试</h1><p>这次只发送一句简短问候，不读取 QQ 或 B站内容。</p><section class="panel" aria-labelledby="setup"><h2 id="setup">测试范围</h2><div class="facts"><div>模型<strong>DeepSeek Flash</strong></div><div>调用次数<strong>最多一次</strong></div><div>单次上限<strong>0.1 元</strong></div><div>每日上限<strong>1 元</strong></div></div><p id="readiness" class="notice" role="status">正在检查预算和低谷时段…</p><label for="once-key">仅本次使用的 API Key</label><input id="once-key" type="password" autocomplete="off" spellcheck="false"><p class="fine">Key 不写入应用文件、日志或网址；提交后清空输入框。程序运行时可能存在内存残留。</p><label><input id="consent" type="checkbox"> 我已核对以上范围，同意现在执行一次测试。</label><button id="run" type="button" disabled>执行一次测试</button><p id="result" role="status" aria-live="polite"></p><p class="fine">超限、失败或结果不确定时不要重试；请先核对提供方账单。完成后回到启动窗口按 Ctrl+C 停止服务。</p></section></main>
+<script>
+(()=>{
+ let token=location.hash.slice(1);const sessionKey='bigfish-once-session:'+location.host;
+ try{if(token)sessionStorage.setItem(sessionKey,token);else token=sessionStorage.getItem(sessionKey)||''}catch(e){}
+ history.replaceState(null,'',location.pathname);
+ const key=document.getElementById('once-key'),consent=document.getElementById('consent'),button=document.getElementById('run'),note=document.getElementById('readiness'),result=document.getElementById('result');
+ const id=crypto.randomUUID();let ready=false,attempted=false;
+ function update(){button.disabled=attempted||!ready||!consent.checked||!key.value}
+ async function check(){
+  if(!token){note.textContent='本机页面会话已失效。请关闭启动窗口，再用恢复入口重新打开；不要重复执行测试。';update();return}
+  try{const r=await fetch('/api/status',{headers:{'X-Local-Token':token}});if(!r.ok)throw Error();const s=await r.json(),c=s.config,t=s.text_plan&&s.text_plan.time_gate;
+   ready=!!(s.single_test_attempted===false&&c&&c.provider_url==='https://api.deepseek.com'&&c.model==='deepseek-flash'&&c.currency==='CNY'&&c.daily_budget_micro===1000000&&c.request_cap_micro===100000&&c.paid_enabled&&!c.outbound_enabled&&!c.qq_auto_process&&!c.qq_auto_send&&t&&t.time_allowed&&Array.isArray(s.charges)&&s.charges.length===0);
+   note.textContent=s.single_test_attempted?'此测试目录已尝试过。请先核对结果和账单，不要重试。':ready?'预算已准备，当前处于允许的低谷时段。':'当前条件未就绪：请检查服务、低谷时段、预算或未核对费用；不会自动调用。';
+  }catch(e){ready=false;note.textContent='无法检查本机服务。请停止并核对，未调用模型。'}update();
+ }
+ consent.addEventListener('change',update);key.addEventListener('input',update);
+ button.addEventListener('click',async()=>{if(button.disabled)return;attempted=true;update();let value=key.value;key.value='';consent.checked=false;result.textContent='正在执行，请勿关闭或重复操作…';
+  try{const r=await fetch('/api/single-model-test',{method:'POST',headers:{'Content-Type':'application/json','X-Local-Token':token},body:JSON.stringify({request_id:id,confirmation:'确认执行一次模型测试',expected:{model:'deepseek-flash',daily_budget_micro:1000000,request_cap_micro:100000},ephemeral_key:value})});const data=await r.json();result.textContent=r.ok?'测试完成：\n'+(data.result&&data.result.text||'已收到结果。')+'\n\n请在提供方后台核对实际账单。':'测试未完成：'+(data.error||'服务返回错误')+'。请核对后停止，不要重试。'}
+  catch(e){result.textContent='结果不确定。请先核对提供方账单，不要重试。'}finally{value='';key.value='';update()}
+ });check();
+})();
+</script></body></html>

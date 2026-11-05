@@ -1,0 +1,7 @@
+# Python >=3.10. No pip dependencies.
+# Vendored webvtt-py 0.5.1, commit 8c7552053b89b198fa4249a178d05f70e0649456, MIT.
+# Vendored Nayuki qrcodegen, commit bcfe1b018cec5f1f91b5705eca5bb4cdd34e9f8d, MIT.
+# Vendored SeeNow cuts pure module, commit 916354d36e58fdd843fff96284ff7c985bd00020, Apache-2.0.
+# Optional existing Node (ES modules); absence explicitly falls back to uniform sampling.
+# Existing ffmpeg/ffprobe executables required for media/creation, not bundled or installed.
+# See NOTICE.md and vendor licenses. No MaiBot/A_Memorix code is copied/imported.
